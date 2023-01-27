@@ -14,10 +14,21 @@ namespace dotNETLearning
             Console.WriteLine("Enter the Second Number to Perfrom Substractions = ");
             int SM = Convert.ToInt32(Console.ReadLine());
 
-            int Sum;
-            Sum = FN - SM;
-            Console.WriteLine("The Substraction of two Numbers = {0}", Sum);
-            Console.ReadLine();
+            if (FN > SM)
+            {
+                int Sum;
+                Sum = FN - SM;
+                Console.WriteLine("The Substraction of two Numbers = {0}", Sum);
+                Console.ReadLine();
+            }
+
+            else
+            {
+                Console.WriteLine("Please Correct Number");
+                Console.ReadLine();
+            }
+
+            
         
         
         

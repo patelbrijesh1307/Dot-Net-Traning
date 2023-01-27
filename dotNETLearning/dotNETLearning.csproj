@@ -46,12 +46,15 @@
     <Compile Include="Add.cs" />
     <Compile Include="Average.cs" />
     <Compile Include="InterF1.cs" />
+    <Compile Include="Methods.cs" />
     <Compile Include="NewClass.cs" />
     <Compile Include="Percent.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StringCon.cs" />
+    <Compile Include="StringReverse.cs" />
     <Compile Include="Substraction.cs" />
+    <Compile Include="truefalse.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
