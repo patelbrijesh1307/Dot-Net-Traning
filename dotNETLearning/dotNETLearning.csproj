@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Add.cs" />
     <Compile Include="Average.cs" />
+    <Compile Include="Category.cs" />
     <Compile Include="InterF1.cs" />
     <Compile Include="Methods.cs" />
     <Compile Include="NewClass.cs" />
